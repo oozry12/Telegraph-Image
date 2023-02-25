@@ -79,12 +79,13 @@
                 label="data"
                 prop="data">
                 <template slot-scope="scope">
-                <el-popover trigger="hover" placement="top">
+                 <!-- <el-popover trigger="hover" placement="top">
                   <p>{{ scope.row.metadata }}</p>
                   <div slot="reference" class="name-wrapper">
                     <el-tag size="medium">{{ scope.row.metadata }}</el-tag>
                   </div>
-                </el-popover>
+                </el-popover> -->
+                <el-button size="mini" type="primary">https://zoer.us/file/{{scope.row.name}}</el-button>
               </template>
               </el-table-column>
               <el-table-column
